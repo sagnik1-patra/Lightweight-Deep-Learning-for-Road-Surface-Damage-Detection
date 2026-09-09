@@ -1,0 +1,13 @@
+{
+    "project": "Lightweight Deep Learning for Road Surface Damage Detection",
+    "task": "Object Detection",
+    "dataset": "Pothole Dataset",
+    "number_of_classes": 1,
+    "classes": [
+        "pothole"
+    ],
+    "train_images": 465,
+    "validation_images": 133,
+    "test_images": 67,
+    "total_images": 665
+}

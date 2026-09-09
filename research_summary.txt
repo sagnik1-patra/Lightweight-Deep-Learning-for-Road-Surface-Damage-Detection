@@ -1,0 +1,63 @@
+
+LIGHTWEIGHT DEEP LEARNING FOR ROAD SURFACE DAMAGE DETECTION
+==========================================================
+
+MODEL
+-----
+YOLOv8n
+
+TASK
+----
+Pothole Object Detection
+
+
+DATASET
+-------
+Training Images   : 465
+Validation Images : 133
+Test Images       : 67
+Total Images      : 665
+
+Total Annotated Potholes: 1740
+
+
+VALIDATION PERFORMANCE
+----------------------
+Precision    : 0.7739
+Recall       : 0.6939
+mAP@0.50     : 0.7757
+mAP@0.50:0.95: 0.4692
+
+
+TEST PERFORMANCE
+----------------
+Precision    : 0.9077
+Recall       : 0.7338
+mAP@0.50     : 0.8331
+mAP@0.50:0.95: 0.5185
+
+
+LIGHTWEIGHT PERFORMANCE
+-----------------------
+Model Size            : 5.95 MB
+Average Inference Time: 69.79 ms/image
+Approximate FPS       : 14.33
+
+
+PREDICTION ANALYSIS
+-------------------
+Total Test Detections:
+184
+
+Mean Absolute Pothole Count Error:
+0.8955
+
+
+TRAINING TIME
+-------------
+101.91 minutes
+
+
+OUTPUT DIRECTORY
+----------------
+C:\Users\sagni\Downloads\Lightweight Deep Learning for Road Surface Damage Detection\road_damage_results

@@ -1,0 +1,22 @@
+Model: YOLOv8n
+Task: Pothole Detection
+Research_Title: Lightweight Deep Learning for Road Surface Damage Detection
+Train_Images: 465
+Validation_Images: 133
+Test_Images: 67
+Total_Dataset_Images: 665
+Total_Annotated_Potholes: 1740
+Training_Time_Minutes: 101.9125491698583
+Validation_Precision: 0.773930101314582
+Validation_Recall: 0.693939393939394
+Validation_mAP50: 0.7757359053326235
+Validation_mAP50_95: 0.469240115519424
+Test_Precision: 0.9076754100373614
+Test_Recall: 0.7337662337662337
+Test_mAP50: 0.8330891046705841
+Test_mAP50_95: 0.5185072574006
+Model_Size_MB: 5.948397636413574
+Average_Inference_Time_ms: 69.79195522385521
+Approximate_FPS: 14.328298967875819
+Mean_Absolute_Count_Error: 0.8955223880597015
+Number_of_Test_Detections: 184
