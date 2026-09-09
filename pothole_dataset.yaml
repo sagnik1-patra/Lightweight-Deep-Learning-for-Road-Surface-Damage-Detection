@@ -1,0 +1,7 @@
+train: C:/Users/sagni/Downloads/Lightweight Deep Learning for Road Surface Damage
+  Detection/archive/train/images
+val: C:/Users/sagni/Downloads/Lightweight Deep Learning for Road Surface Damage Detection/archive/valid/images
+test: C:/Users/sagni/Downloads/Lightweight Deep Learning for Road Surface Damage Detection/archive/test/images
+nc: 1
+names:
+- pothole
